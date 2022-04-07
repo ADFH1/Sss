@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    retutn 'Privet'
+    return 'Privet'
 
 
 app.run(port='8000')
